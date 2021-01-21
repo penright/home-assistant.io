@@ -49,7 +49,7 @@ all:
   type: boolean
   default: false
 icon:
-  description: The icon that shows in the front end.
+  description: The icon that shows in the front end. Only MDI icons are supported at this time.
   required: false
   type: string
 {% endconfiguration %}
